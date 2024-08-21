@@ -52,7 +52,7 @@ def main():
     parser.add_argument("-nc", "--no-collectors", action="store_true", dest="noCollectors", help="skip passive subdomain enumeration", default=False)
     parser.add_argument("-zt", "--zone-transfer", action="store_true", dest="zoneTransfer", help="attempt to zone transfer from identified name servers", default=False)
     parser.add_argument("--permutate", action="store_true", dest="permutate", help="perform permutations on resolved domains", default=False)
-    parser.add_argument("-pw", "--permutation-wordlist", dest="permutation_wordlist", help="wordlist to perform permutations with, seperated by comma [default is seclists, assumes installed]", type=FileType("r"), default="/usr/share/seclists/Discovery/DNS/deepmagic.com-prefixes-top500.txt,/usr/share/seclists/Fuzzing/environment-identifiers.txt")
+    parser.add_argument("-pw", "--permutation-wordlist", dest="permutation_wordlist", help="wordlist to perform permutations with, seperated by comma [default is seclists, assumes installed]", type=str, default="/usr/share/seclists/Discovery/DNS/deepmagic.com-prefixes-top500.txt,/usr/share/seclists/Fuzzing/environment-identifiers.txt")
     parser.add_argument("--reverse", action="store_true", dest="reverse", help="perform reverse dns lookups on resolved public IP addresses", default=False)
     parser.add_argument("-ripe", "--ripe", action="store_true", dest="ripe", help="query ripe database with the 2nd level domain for networks to be used for reverse lookups", default=False)
     parser.add_argument("-r", "--ranges", action="store", dest="ranges", help="comma seperated ip ranges to perform reverse dns lookups on", type=str, default=None)
