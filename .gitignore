@@ -1,0 +1,4 @@
+*.pyc
+findings.sqlite
+lepusdb.sqlite
+findings/
