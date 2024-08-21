@@ -101,8 +101,13 @@ def init(db, domain, wordlist, hideWildcards, threads):
 	baseChunks = utilities.MiscHelpers.chunkify(list(base), 100)
 	iteration = 1
 
-	words = [line.strip() for line in wordlist.readlines()]
-	wordlist.close()
+	wordlists = wordlist.split(",")
+	words = []
+	for lists in wordlists:
+		wordlist = open(list)
+		words.append([line.strip() for line in wordlist.readlines()])
+		wordlist.close()
+	print("length of wordlists is " + str(len(words)))
 
 	for chunk in baseChunks:
 		generators = []
