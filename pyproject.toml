@@ -1,5 +1,5 @@
 [project]
-name = "lepus"
+name = "lepus-neo"
 version = "1.0.0"
 authors = [
   { name="gfek"},
@@ -18,8 +18,8 @@ dependencies = ["setuptools","beautifulsoup4==4.9.3","dnspython==2.0.0","ipwhois
 
 
 [project.urls]
-Homepage = "https://github.com/GhostDog98/-ua"
-Issues = "https://github.com/GhostDog98/"
+Homepage = "https://github.com/GhostDog98/lepus-neo"
+Issues = "https://github.com/GhostDog98/lepus-neo"
 
 [build-system]
 requires = ["setuptools","beautifulsoup4==4.9.3","dnspython==2.0.0","ipwhois==1.2.0","requests==2.32.2","shodan==1.25.0","slackclient==2.9.3","SQLAlchemy==1.4.18","termcolor==1.1.0","tqdm==4.61.1"]
