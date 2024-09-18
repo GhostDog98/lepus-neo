@@ -1,5 +1,5 @@
 beautifulsoup4==4.9.3
-dnspython==2.0.0
+dnspython==2.6.1
 ipwhois==1.2.0
 requests==2.32.2
 shodan==1.25.0
