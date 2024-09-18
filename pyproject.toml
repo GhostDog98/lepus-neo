@@ -14,7 +14,7 @@ classifiers = [
     "License :: BSD 3-Clause License",
     "Operating System :: OS Independent",
 ]
-dependencies = ["setuptools","beautifulsoup4==4.9.3","dnspython==2.6.1","ipwhois==1.2.0","requests==2.32.2","shodan==1.25.0","slackclient==2.9.3","SQLAlchemy==1.4.18","termcolor==1.1.0","tqdm==4.61.1"]
+dependencies = ["setuptools","beautifulsoup4==4.9.3","dnspython==2.6.1","ipwhois==1.2.0","requests==2.32.2","shodan==1.25.0","slackclient==2.9.3","SQLAlchemy==1.4.18","termcolor==1.1.0","tqdm==4.66.3"]
 
 
 [project.urls]
@@ -22,7 +22,7 @@ Homepage = "https://github.com/GhostDog98/lepus-neo"
 Issues = "https://github.com/GhostDog98/lepus-neo"
 
 [build-system]
-requires = ["setuptools","beautifulsoup4==4.9.3","dnspython==2.6.1","ipwhois==1.2.0","requests==2.32.2","shodan==1.25.0","slackclient==2.9.3","SQLAlchemy==1.4.18","termcolor==1.1.0","tqdm==4.61.1"]
+requires = ["setuptools","beautifulsoup4==4.9.3","dnspython==2.6.1","ipwhois==1.2.0","requests==2.32.2","shodan==1.25.0","slackclient==2.9.3","SQLAlchemy==1.4.18","termcolor==1.1.0","tqdm==4.66.3"]
 build-backend = "setuptools.build_meta"
 
 
